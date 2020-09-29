@@ -3,6 +3,11 @@
 - name: Organizing Committee
   url: /org-committee.html
 
+- name: Calls
+  submenu:
+    - name: Call for Supporters
+      url: /cf-supporters.html
+
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
 
