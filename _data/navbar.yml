@@ -3,6 +3,9 @@
 - name: Organizing Committee
   url: /org-committee.html
 
+- name: Anti-Harassment Policy
+  url: /policy-anti-harassment.html
+
 - name: Previous Editions
   submenu:
     - name: ACM ICN 2020
