@@ -1,0 +1,21 @@
+- name: Home
+  url: /
+- name: Organizing Committee
+  url: /org-committee.html
+
+- name: Previous Editions
+  submenu:
+    - name: ACM ICN 2020
+      url: https://conferences.sigcomm.org/acm-icn/2020/
+    - name: ACM ICN 2019
+      url: https://conferences.sigcomm.org/acm-icn/2019/
+    - name: ACM ICN 2018
+      url: https://conferences.sigcomm.org/acm-icn/2018/
+    - name: ACM ICN 2017
+      url: https://conferences.sigcomm.org/acm-icn/2017/
+    - name: ACM ICN 2016
+      url: https://conferences.sigcomm.org/acm-icn/2016/
+    - name: ACM ICN 2015
+      url: https://conferences.sigcomm.org/acm-icn/2015/
+    - name: ACM ICN 2014
+      url: https://conferences.sigcomm.org/acm-icn/2014/
