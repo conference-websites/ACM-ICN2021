@@ -9,22 +9,22 @@
 main-registration:
   track: main
   info: Paper Registration Deadline (Long and Short)
-  date: "TBA"
+  date: "May 7, 2021"
   important: true
 main-submission:
   track: main
   info: Paper Submission Deadline (Long and Short)
-  date: "TBA"
+  date: "May 14, 2021"
   important: true
 main-notification:
   track: main
   info: Acceptance Notification
-  date: "TBA"
+  date: "July 27, 2021"
   important: true
 main-due:
   track: main
   info: Camera Ready Due
-  date: "TBA"
+  date: "August 27, 2021"
   important: true
 
 conference:
