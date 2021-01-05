@@ -10,11 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: whoan/docker-build-with-cache-action@v5
-      with:
-        image_name: conferences/acm-icn-2020-builder
-        image_tag: v6
-        push_image_and_stages: false
 
     - name: Setup Environment
       run: |
