@@ -19,12 +19,12 @@ main-submission:
 main-notification:
   track: main
   info: Acceptance Notification
-  date: "July 27, 2021"
+  date: "July 20, 2021"
   important: true
 main-due:
   track: main
   info: Camera Ready Due
-  date: "August 27, 2021"
+  date: "August 20, 2021"
   important: true
 
 conference:
