@@ -29,4 +29,4 @@ jobs:
         ftp_username: ${{ secrets.FTP_USERNAME }}
         ftp_password: ${{ secrets.FTP_PASSWORD }} 
       run: |
-        lftp -v -e "set ftp:ssl-force true; set ssl:verify-certificate no;mirror --exclude proceedings/ --delete --delete-first -R _site/ ./; bye" -u ${ftp_username},${ftp_password} ${ftp_location}
+        lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no;mirror --exclude proceedings/ --delete --delete-first -R _site/ ./; bye" -u ${ftp_username},${ftp_password} ${ftp_location}
