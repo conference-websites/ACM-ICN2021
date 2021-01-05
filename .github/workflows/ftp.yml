@@ -10,18 +10,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-ruby@v1
+    - uses: whoan/docker-build-with-cache-action@v5
       with:
-        ruby-version: '2.7'
+        image_name: conferences/acm-icn-2020-builder:v6
 
     - name: Setup Environment
       run: |
-        gem install jekyll bundler
-        bundle install
         sudo apt-get install -y lftp
         
     - name: Build Site with Jekyll
-      run: JEKYLL_ENV=production bundle exec jekyll build
+      run: `docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v6 bundler exec jekyll build
     
     - name: Upload site to FTP
       env:
@@ -29,4 +27,4 @@ jobs:
         ftp_username: ${{ secrets.FTP_USERNAME }}
         ftp_password: ${{ secrets.FTP_PASSWORD }} 
       run: |
-        lftp -v -e "set ftp:ssl-force true; set ssl:verify-certificate no;-e "mirror --exclude proceedings/ --delete --delete-first -R _site/ ./; bye" -u ${ftp_username},${ftp_password} ${ftp_location}
+        lftp -v -e "set ftp:ssl-force true; set ssl:verify-certificate no;mirror --exclude proceedings/ --delete --delete-first -R _site/ ./; bye" -u ${ftp_username},${ftp_password} ${ftp_location}
