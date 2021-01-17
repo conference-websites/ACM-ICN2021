@@ -9,8 +9,6 @@
 
 - name: Calls
   submenu:
-    - name: Call for Supporters
-      url: /cf-supporters.html
     - name: Call for Papers
       url: /cf-papers.html
 
