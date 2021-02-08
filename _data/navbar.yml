@@ -11,6 +11,8 @@
   submenu:
     - name: Call for Papers
       url: /cf-papers.html
+    - name: Call for Supporters
+      url: /cf-supporters.html
 
 - name: Anti-Harassment Policy
   url: /policy-anti-harassment.html
