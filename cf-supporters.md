@@ -11,7 +11,7 @@ The {{ site.title }} conference offers sponsors of the conference the following 
 
 | Level           | Bronze   | Silver  | Gold |
 |:--------------- |:--------:|:-------:|:----:|
-| Support funding | €1,000  | €2,000 | €3,000 |
+| Support funding | $ 1,000  | $ 2,000 | $ 3,000 |
 | Complimentary registrations| 1 | 2 | 3 |
 | Logo or name visibility <br> (web, print, email, on-site) | &#10004; | &#10004; | &#10004; |
 | Recognition at opening <br> and closing sessions | &#10004; | &#10004; | &#10004; |
@@ -24,5 +24,5 @@ An entity that has supported ACM ICN continuously for the past five (5) years at
 ### Contact
 
 If you are interested in supporting {{ site.title }} you are most welcome to do so.
-For details please send an email to the General Chairs.
+For details please send an email to the [General Chairs](mailto:gcarofig@cisco.com,daveoran@orandom.net).
  
