@@ -1,6 +1,9 @@
 - name: Home
   url: /
 
+- name: Supporters
+  url: /supporters.html
+
 - name: Program Committee
   url: /tpc.html
 

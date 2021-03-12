@@ -1,4 +1,10 @@
 [
+    [300, "cisco.png", "https://www.cisco.com/", "cisco", 0, 264, 500, "gold"],
+    [200, "futurewei.png", "https://www.futurewei.com/", "futurewei", 0, 198, 300, "gold"],
+    [200, "juniper.png", "https://www.juniper.net/", "juniper", 0, 254, 170, "silver"],
+    [150, "protocol-labs.png", "https://protocol.ai/", "protocol-labs", 0, 358, 120, "bronze"],
+    [150, "comcast.png", "https://comcast.com/", "comcast", 0, 358, 120, "bronze"],
+
     [200, "acm.png", "https://www.acm.org/", "acm", 0, 301, 105, "other"],
     [200, "sig.png", "https://sigcomm.org/", "sig", 0, 843, 324, "other"],
 ]
