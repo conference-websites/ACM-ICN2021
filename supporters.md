@@ -6,7 +6,7 @@ title: Supporters
 ## Industrial Supporters
 
 <p>
-You want to support ACM ICN 2020? Check our <a href="cf-supporters.html">Call for Supporters</a>.
+You want to support ACM ICN 2021? Check our <a href="cf-supporters.html">Call for Supporters</a>.
 </p>
 
 {% comment %}
