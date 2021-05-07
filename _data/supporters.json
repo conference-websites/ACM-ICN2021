@@ -5,6 +5,7 @@
     [200, "juniper.png", "https://www.juniper.net/", "juniper", 0, 223., 751, "silver"],
     [150, "comcast.png", "https://corporate.comcast.com/", "comcast", 0, 566, 1599, "bronze"],
     [150, "protocol-labs.png", "https://protocol.ai/", "protocol-labs", 0, 93, 398, "bronze"],
+    [150, "nist.png", "https://www.nist.gov/", "nist", 0, 81, 453, "bronze"],
 
     [200, "acm.png", "https://www.acm.org/", "acm", 0, 301, 105, "other"],
     [200, "sig.png", "https://sigcomm.org/", "sig", 0, 843, 324, "other"],

@@ -61,9 +61,6 @@ You want to support ACM ICN 2021? Check our <a href="cf-supporters.html">Call fo
 {% endif
 %}{% endfor %}
 </div>
-<div style="text-align: center; font-size:30pt; margin-top: 25px;">
-National Institute of Standards and Technology
-</div>
 </p>
 
 {% comment %}
