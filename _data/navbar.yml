@@ -12,7 +12,7 @@
 
 - name: Calls
   submenu:
-    - name: Call for Papers
+    - name: "<del>Call for Papers</del>"
       url: /cf-papers.html
     - name: Call for Supporters
       url: /cf-supporters.html
