@@ -10,7 +10,7 @@ Following the success of the tutorials presented in previous editions of the ACM
 
 Tutorial proposals should be submitted in PDF format, not exceeding three (3) pages in total, and sent to the tutorial chairs Onur Ascigil and Spyridon Mastorakis.
 
-[Contact tutorial chairs](mailto:o.ascigil@ucl.ac.uk,smastorakis@unomaha.edu?subject=[ACM ICN 2021]%20Tutorial%20Proposal){: data-role="button" class="button" }.
+[Contact tutorial chairs](mailto:o.ascigil@ucl.ac.uk,smastorakis@unomaha.edu?subject=[ACM ICN 2021]%20Tutorial%20Proposal){: data-role="button" class="button" }
 
 ### Proposals must include:
 
