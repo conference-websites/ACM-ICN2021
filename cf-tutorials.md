@@ -34,6 +34,4 @@ Please contact the tutorial chairs, if you have questions about your proposal.
 
 {% include dates.html track = "tutorials" %}
 
-{% comment %}
 <a href="{% asset ACM-ICN-2021-Call-For-Tutorials.pdf @path %}" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a>
-{% endcomment %}
