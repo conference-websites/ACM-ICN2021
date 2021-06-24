@@ -14,6 +14,8 @@
   submenu:
     - name: "<del>Call for Papers</del>"
       url: /cf-papers.html
+    - name: "Call for Tutorials"
+      url: /cf-tutorials.html
     - name: Call for Supporters
       url: /cf-supporters.html
 
