@@ -23,7 +23,7 @@ committees:
 ## {{ page.title }}
 
 The ICN poster and demo sessions are intended to showcase works-in-progress.
-Topics of interest are the same as those listed in the [main track call for papers](cfp.html).
+Topics of interest are the same as those listed in the [main track call for papers](cf-papers.html).
 We strongly encourage both student and industry submissions.
 Submissions should be accompanied by a two-page extended abstract, which will be published in the conference proceedings.
 
