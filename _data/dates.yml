@@ -46,12 +46,12 @@ conference:
 posters-submission:
   track: posters
   info: Submissions deadline
-  date: "August 3, 11:59pm EDT"
+  date: "August 3, 2021 11:59pm EDT"
 posters-notification:
   track: posters
   info: Acceptance Notification
-  date: "August 10, 2020"
+  date: "August 10, 2021"
 posters-due:
   track: posters
   info: Camera Ready Due
-  date: "August 20, 11:59pm EDT"
+  date: "August 20, 2021 11:59pm EDT"
