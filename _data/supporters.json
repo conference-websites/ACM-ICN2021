@@ -3,6 +3,7 @@
     [200, "futurewei.png", "https://www.futurewei.com/", "futurewei", 0, 638, 1715, "gold"],
     [200, "intel.png", "https://www.intel.com/", "intel", 0, 198, 300, "gold"],
     [200, "juniper.png", "https://www.juniper.net/", "juniper", 0, 223., 751, "silver"],
+    [200, "rakuten-mobile.png", "https://corp.mobile.rakuten.co.jp/english/", "rakuten-mobile", 0, 572, 2000, "silver"],
     [150, "comcast.png", "https://corporate.comcast.com/", "comcast", 0, 566, 1599, "bronze"],
     [150, "protocol-labs.png", "https://protocol.ai/", "protocol-labs", 0, 93, 398, "bronze"],
     [150, "nist.png", "https://www.nist.gov/", "nist", 0, 100, 600, "bronze"],
