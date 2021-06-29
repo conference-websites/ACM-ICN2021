@@ -33,7 +33,7 @@ Presenters will need to record a short video explaining their poster or demo and
 The posters and demos submitted to ACM ICN 2021 must be original and cannot be concurrently submitted to other workshops or conferences during the ACM ICN 2021 posters and demos review period.
 All dual submissions will be rejected without review.
 
-[Contact poster/demos chairs](mailto:aa@cs.fiu.edu,msardara@cisco.com?subject=[ACM ICN 2021 Poster Demos]%20){: data-role="button" class="button" }.
+[Contact poster/demos chairs](mailto:aa@cs.fiu.edu,msardara@cisco.com?subject=[ACM ICN 2021 Poster Demos]%20){: data-role="button" class="button" }
 
 ### Why should you submit a poster or a demo?
 
