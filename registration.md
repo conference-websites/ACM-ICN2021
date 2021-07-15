@@ -8,6 +8,8 @@ registrations:
       price: ["$25", "$50"]
     - type: Student Registration
       price: ["$10", "$20"]
+    - type: Retiree Registration
+      price: ["Free", "Free"]
 ---
 
 ## Registration Information
