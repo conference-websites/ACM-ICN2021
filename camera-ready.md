@@ -6,7 +6,7 @@ group: Calls
 
 ## {{ page.title }}
 
-**September 1st, 2021 is camera-ready due** for all accepted papers (full, short, poster, and demo).
+**August 20th, 2021 is camera-ready due** for all accepted papers (full, short, poster, and demo).
 
 Before submitting camera-ready papers, authors of accepted papers will need to complete the rights management form. You will be notified once these forms are available and ready to sign. You must agree to videotaping in the forms for the conference to use your pre-recorded talk.
 
