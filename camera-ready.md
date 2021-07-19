@@ -17,7 +17,7 @@ As rights management emails are sent from an automated system, there is a chance
 ACM ICN 2021 also uses HotCRP for collecting camera ready submissions. Please go to the ICN 2021 Submission Site at [https://icn21.hotcrp.com/](https://icn21.hotcrp.com/) or Posters and Demos Submission Site at [https://icn21posterdemo.hotcrp.com](https://icn21posterdemo.hotcrp.com). Please prepare your paper according to the instructions provided below :
 
 - Full papers should be no more than eleven (11) single-spaced pages, including figures, tables, appendices, etc. References do not count to the page limit and in order to ensure adequate citation of related work, extra pages of references are allowed (and encouraged).
-- For short papers the limit is six (6) pages, EXCLUDING references. 
+- For short papers the limit is six (6) pages, EXCLUDING references.
 - For posters and demos the page limit is two (2) single-spaced pages, EXCLUDING references.
 - Font size for the main text is the same as in the provided template (9 pt). This is in contrast to the 10pt font in the initial submission to allow authors extra space to address reviewers’ comments.
 - Include names and affiliations of all authors in the title page.
@@ -27,7 +27,7 @@ ACM ICN 2021 also uses HotCRP for collecting camera ready submissions. Please go
 - Please provide an abstract of no more than 250 words.
 - Submit the source files and PDF (Portable Document Format) of your camera-ready paper. Avoid using any special characters or non-standard fonts. We must be able to display and print your submission exactly as we receive it using only standard tools and printers, so we strongly suggest that you use only standard fonts embedded in the PDF file.
 - Ensure that labels and symbols used in graphs and figures are legible, including the font sizes of tick marks, axis labels, legends, etc.
-- Limit the file size to less than 15MB. 
+- Limit the file size to less than 15MB.
 - NOTE: please contact the conference publications chair Yiannis Psaras [yiannis@protocol.ai](mailto:yiannis@protocol.ai) if you have questions about use of the ACM document templates or generating your camera-ready final paper copy.
 
 All camera-ready papers should have the rights management statement and bibliographic strip on the bottom of the first page left column. Text to be provided after the rights management form is completed by the authors as noted above.
