@@ -17,7 +17,7 @@ As rights management emails are sent from an automated system, there is a chance
 ACM ICN 2021 also uses HotCRP for collecting camera ready submissions. Please go to the ICN 2021 Submission Site at [https://icn21.hotcrp.com/](https://icn21.hotcrp.com/) or Posters and Demos Submission Site at [https://icn21posterdemo.hotcrp.com](https://icn21posterdemo.hotcrp.com). Please prepare your paper according to the instructions provided below :
 
 - Full papers should be no more than eleven (11) single-spaced pages, including figures, tables, appendices, etc. References do not count to the page limit and in order to ensure adequate citation of related work, extra pages of references are allowed (and encouraged).
-- For short papers the limit is six (6) pages, EXCLUDING references.
+- For short papers the limit is six (6) pages, including figures, tables, appendices, EXCLUDING references.
 - For posters and demos the page limit is two (2) single-spaced pages, EXCLUDING references.
 - Font size for the main text is the same as in the provided template (9 pt). This is in contrast to the 10pt font in the initial submission to allow authors extra space to address reviewers’ comments.
 - Include names and affiliations of all authors in the title page.
