@@ -19,7 +19,7 @@ main-submission:
 main-notification:
   track: main
   info: Acceptance Notification
-  date: "July 20, 2021"
+  date: "<del>July 20, 2021</del>"
   important: true
 main-due:
   track: main
