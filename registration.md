@@ -34,7 +34,7 @@ registrations:
 </div>
 
 
-[Online registration](https://web.cvent.com/event/4373e21f-c5ad-45e8-94d2-f1373fa373ac/summary?locale=en-US&tm=TPn8ejs5YXpDdKE7pvC0hKVijyMycSPLQf82ABlJJ5c){: data-role="button" class="button" }
+[Online registration](https://cvent.me/xkDnq3){: data-role="button" class="button" }
 
 In case of problems with registration or billing, please contact the [Registration Chair](mailto:icn2021.reg@gmail.com).
 
@@ -50,6 +50,6 @@ In case of problems with registration or billing, please contact the [Registrati
 
 - We acknowledge the difficult times that some of the members of our community are facing. We want to be sure this is not an impediment for participating in the upcoming edition of ICN 2021 and we have allocated a number of registrations waivers for those experiencing financial hardship.
 
-- Submit your application via this [form](https://docs.google.com/forms/d/e/1FAIpQLSd1eM07XTq6sh92SV8Z2XseRazwjGpEdBQd1CEDpAiB7l-WZQ/viewform?vc=0&c=0&w=1&flr=0). Upon acceptance, you will receive an email with a code that can be used to waive the registration fees.
+- Submit your application via this [form](https://forms.gle/2pmoUfdGrYK5TxaW6). Upon acceptance, you will receive an email with a code that can be used to waive the registration fees.
 
 - If you have any questions or concerns, please contact the [Registration Chair](mailto:icn2021.reg@gmail.com).
