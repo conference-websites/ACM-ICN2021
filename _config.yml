@@ -24,17 +24,17 @@ logo:
 # ACM ICN'2021 tracking
 google_analytics_id: UA-83529610-4
 
-#program:
+program:
   # If the specified file doesn't exist, there will be command-line dialog to create it
   # (Currently hardcoded for a dummy robot.mcrobot.jr@gmail.com account permissions)
-#  google_client_id: .travis.d/google_client_id.json
+  google_client_id: .travis.d/google_client_id.json
   # Google spreadsheet with the conference data
-#  spreadsheet: 1s4v3XBYNzJWT12e1_wIo5vdePHAPmu5n-U-mHfeLAgc
+  spreadsheet: 1G9OH401jxwql8xLTBh0ArB73gWIWHFC0H1JfiAh4OFU
 
-#program-at-glance:
-#  google_client_id: .travis.d/google_client_id.json
-#  spreadsheet:
-#    - 1pnye81Kcu3B-xL2vSOU7l2cSLvyij0LinSnnQh-6mX4
+program-at-glance:
+  google_client_id: .travis.d/google_client_id.json
+  spreadsheet:
+    - 1n_Tv8ZSahQp63Q0BCryc3BrVuzgn1ByiFdi2xZozbMw
   
 assets:
   sources:
