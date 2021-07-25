@@ -30,12 +30,12 @@ main-due:
 tutorials-proposals:
   track: tutorials
   info: Proposals deadline
-  date: "July 25, 2021"
+  date: "<del>July 25, 2021</del> August 2, 2021"
   important: true
 tutorials-notification:
   track: tutorials
   info: Notification of Acceptance
-  date: "August 1, 2021"
+  date: "<del>August 1, 2021</del> August 9, 2021"
 
 conference:
   track: main
