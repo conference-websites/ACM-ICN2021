@@ -9,7 +9,7 @@
 main-registration:
   track: main
   info: Paper Registration Deadline (Long and Short)
-  date: "<del>May 7, 2021</del>"
+  date: "r<del>May 7, 2021</del>"
   important: true
 main-submission:
   track: main
@@ -46,11 +46,11 @@ conference:
 posters-submission:
   track: posters
   info: Submissions deadline
-  date: "August 3, 2021 11:59pm EDT"
+  date: "<del>August 3</del> August 12, 2021 11:59pm EDT"
 posters-notification:
   track: posters
   info: Acceptance Notification
-  date: "August 10, 2021"
+  date: "<del>August 10</del> August 18, 2021"
 posters-due:
   track: posters
   info: Camera Ready Due
