@@ -4,6 +4,9 @@
 - name: Supporters
   url: /supporters.html
 
+- name: "Online Registration"
+  url: /registration.html
+
 - name: Program Committee
   url: /tpc.html
 
