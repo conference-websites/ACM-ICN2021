@@ -9,7 +9,7 @@
 main-registration:
   track: main
   info: Paper Registration Deadline (Long and Short)
-  date: "r<del>May 7, 2021</del>"
+  date: "<del>May 7, 2021</del>"
   important: true
 main-submission:
   track: main
