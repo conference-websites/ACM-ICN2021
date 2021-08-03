@@ -15,10 +15,32 @@ committees:
 
     - role: Demo/Poster TPC Members
       people:
-      - name:        TBD
-        affiliation: 
-
----
+      - name:        Alberto Compagno
+        affiliation: Camlin Technologies
+      - name:        Davide Pesavento
+        affiliation: NIST
+      - name:        Elisa Bertino
+        affiliation: Purdue University
+      - name:        Jacques Samain
+        affiliation: Cisco
+      - name:        John Dehart
+        affiliation: Washington University in St. Louis
+      - name:        Peter Kietzmann
+        affiliation: HAW Hamburg
+      - name:        Philipp Moll
+        affiliation: UCLA
+      - name:        Reza Tourani
+        affiliation: Saint Louis University
+      - name:        Sanjeev Kaushik Ramani
+        affiliation: Florida International University
+      - name:        Saurab Dulal
+        affiliation: The University of Memphis
+      - name:        Susmit Shannigrahi
+        affiliation: Tennessee Technological University
+      - name:        Teng Liang
+        affiliation: University of Arizona
+      - name:        Tianyuan Yu
+        affiliation: UCLA---
 
 ## {{ page.title }}
 
