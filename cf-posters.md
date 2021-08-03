@@ -40,7 +40,9 @@ committees:
       - name:        Teng Liang
         affiliation: University of Arizona
       - name:        Tianyuan Yu
-        affiliation: UCLA---
+        affiliation: UCLA
+
+---
 
 ## {{ page.title }}
 
