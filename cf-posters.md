@@ -25,6 +25,8 @@ committees:
         affiliation: Cisco
       - name:        John Dehart
         affiliation: Washington University in St. Louis
+      - name:        Claudio Marxer
+        affiliation: University of Basel, Switzerland
       - name:        Peter Kietzmann
         affiliation: HAW Hamburg
       - name:        Philipp Moll
