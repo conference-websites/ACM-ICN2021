@@ -7,6 +7,12 @@
 - name: "Online Registration"
   url: /registration.html
 
+- name: Accepted Papers
+  url: /accepted-papers.html
+
+- name: "Accepted Posters&Demos"
+  url: /accepted-posters.html
+
 - name: Program Committee
   url: /tpc.html
 
