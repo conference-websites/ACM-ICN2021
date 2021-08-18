@@ -6,7 +6,8 @@ on:
   schedule:
     # re-build (e.g., for program changes) twice a day
     - cron:  '30 5,17 * * *'
-
+  workflow_dispatch:
+    
 jobs:
   build:
     runs-on: ubuntu-latest
