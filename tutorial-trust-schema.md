@@ -7,6 +7,7 @@ presenters:
 - name: Alex Afanasyev
   affiliation: Florida International University
   homepage: https://users.cs.fiu.edu/~afanasyev
+  photo: speakers/Alex-Afanasyev.jpg
   bio: "
   Alex Afanasyev is an Assistant Professor in Florida International University, Miami. He received his Ph.D. degree in
   computer science from UCLA in 2013. His research focus is on the next-generation Internet architecture as part of
@@ -15,6 +16,7 @@ presenters:
   Dr. Afanasyev is also leading the development effort of the overall NDN codebase."
 
 - name: Tianyuan Yu
+  photo: speakers/Tianyuan-Yu.jpg
   affiliation: UCLA
   bio: "
   Tianyuan Yu is PhD student of Computer Science Department at University of California, Los Angeles (UCLA), under
@@ -33,6 +35,7 @@ presenters:
   "
 
 - name: Lixia Zhang
+  photo: speakers/Lixia-Zhang.jpg
   affiliation: UCLA
   bio: "
   Lixia Zhang is a Professor in the Computer Science Department of UCLA. She received her Ph.D in computer science
