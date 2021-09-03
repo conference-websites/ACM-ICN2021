@@ -33,7 +33,6 @@ presenters:
   "
 
 - name: Lixia Zhang
-  photo: speakers/Lixia-Zhang.jpg
   affiliation: UCLA
   bio: "
   Lixia Zhang is a Professor in the Computer Science Department of UCLA. She received her Ph.D in computer science
