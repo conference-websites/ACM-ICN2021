@@ -53,7 +53,7 @@ presenters:
 
 {% assign abstractTitle="" %}
 {% assign expanded=true %}
-{% include program-online.html type="tutorial-ndn" %}
+{% include program-online.html type="tutorial-trust-schema" %}
 
 ### Introduction
 
@@ -115,10 +115,17 @@ This session will also offer the audience opportunities to share their own work 
 
 ### REFERENCES
 [1] Alexander Afanasyev, Tamer Refaei, Lan Wang, and Lixia Zhang. 2018. A Brief Introduction to Named Data Networking. In Proc. of MILCOM.
+
 [2] Van Jacobson, Diana K Smetters, JD Thronton, Michael F Plass, Nicholas H Briggs, and RL Braynard. 2009. Network Named Content. In Proc. of CoNEXT.
+
 [3] Kathleen Nichols. 2019. Lessons Learned Building a Secure Network Measurement Framework using Basic NDN. In Proc. of ACM ICN.
+
 [4] Kathleen Nichols. 2021. Trust Schemas and ICN: Key to Secure IoT. In Proc. of ACM ICN.
+
 [5] Kathleen Nichols. 2021. Trust Schemas and ICN: Key to Secure IoT. In Proc. of ACM ICN.
+
 [6] Yingdi Yu, Alexander Afanasyev, David Clark, kc claffy, Van Jacobson, and Lixia Zhang. 2015. Schematizing Trust in Named Data Networking. In Proceedings of 2nd ACM Conference on Information-Centric Networking. http://dx.doi.org/10.1145/2810156.2810170
+
 [7] Lixia Zhang, Alexander Afanasyev, Jeffrey Burke, Van Jacobson, Patrick Crowley, Christos Papadopoulos, Lan Wang, Beichuan Zhang, et al. 2014. Named data networking. ACM SIGCOMM Computer Communication Review 44, 3 (2014), 66–73.
+
 [8] Zhiyi Zhang, Yingdi Yu, Alex Afanasyev, and Lixia Zhang. 2017. NDN Certificate Management Protocol (NDNCERT). Technical Report NDN-0050. NDN.

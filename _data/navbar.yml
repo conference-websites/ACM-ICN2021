@@ -7,6 +7,11 @@
 - name: "Online Registration"
   url: /registration.html
 
+- name: Tutorials
+  submenu:
+    - name: "Power of Trust Schemas for Easy and Secure Deployment of NDN Applications"
+      url: /tutorial-trust-schema.html
+
 - name: Accepted Papers
   url: /accepted-papers.html
 
