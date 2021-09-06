@@ -4,6 +4,9 @@
 - name: Supporters
   url: /supporters.html
 
+- name: Program
+  url: /program.html
+
 - name: "Online Registration"
   url: /registration.html
 
