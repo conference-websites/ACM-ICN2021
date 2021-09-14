@@ -24,7 +24,7 @@ main-notification:
 main-due:
   track: main
   info: Camera Ready Due
-  date: "August 20, 2021"
+  date: "<del>August 20, 2021</del>"
   important: true
 
 tutorials-proposals:
