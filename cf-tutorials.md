@@ -19,7 +19,7 @@ Tutorial proposals should be submitted in PDF format, not exceeding three (3) pa
 - An outline of the tutorial content, including its tentative schedule.
 - The type of tutorial (e.g., lecture vs. hands-on); if hands on, how to ensure a satisfactory experience for participants that are remote.
 - References to previous iterations of the tutorial (if applicable) including their date, venue, topics and number of participants, and the motivation for this new proposal.
-- Requirements for the tutorial on-line experience (what is needed beyond is provided in a Zoom/Webex session)
+- Requirements for the tutorial on-line experience (what is needed beyond is provided in a Webex session)
 - Requirements for the attendees, especially considering that they may be at home with only access to basic laptops.
 - Any other limitations (e.g., number of participants).
 - Detailed biographies of the trainers (not part of the page limit).
