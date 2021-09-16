@@ -29,22 +29,20 @@
     {% endif %}
   </div>
 
+  {% if panel.title and panel.title != "" %}
+    <hr class="keynote-divider" />
+  {% endif %}
   {% if has_abstract %}
-    {% if panel.title and panel.title != "" %}
-      <hr class="keynote-divider" />
-    {% endif %}
-    {% if has_abstract %}
-      <p>
-        <b>Abstract: </b>{{ panel.abstract }}
-      </p>
-      <p>&nbsp;</p>
-    {% endif %}
-    {% if has_authors %}
-      <p>
-        <b>Panelists: </b><br/>
-        {{ panel.authors }}
-      </p>
-      <p>&nbsp;</p>
-    {% endif %}
+    <p>
+      <b>Abstract: </b>{{ panel.abstract }}
+    </p>
+    <p>&nbsp;</p>
+  {% endif %}
+  {% if has_authors %}
+    <p>
+      <b>Panelists: </b><br/>
+      {{ panel.authors }}
+    </p>
+    <p>&nbsp;</p>
   {% endif %}
 </li>
