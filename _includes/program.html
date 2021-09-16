@@ -12,6 +12,8 @@
         {% assign paper = item %}{% include tprog-item.html %}
       {% elsif item.type == "keynote"     %}
         {% assign keynote = item %}{% include tprog-keynote.html %}
+      {% elsif item.type == "panel"     %}
+        {% assign panel = item %}{% include tprog-panel.html %}
       {% elsif item.type == "paper" or item.type == "poster" or item.type == "demo" %}
         {% assign paper = item %}{% include tprog-paper.html %}
       {% elsif item.type == "session"     %}

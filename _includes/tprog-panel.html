@@ -1,0 +1,50 @@
+{% if panel.authors and panel.authors != "" %}{% assign has_authors = true %}{% else %}{% assign has_authors = nil %}{% endif %}
+{% if panel.abstract and panel.abstract != "" %}{% assign has_abstract = true %}{% else %}{% assign has_abstract = nil %}{% endif %}
+{% if panel.slides and panel.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+{% if panel.video and panel.video != "" %}{% assign has_video = true %}{% else %}{% assign has_video = nil %}{% endif %}
+
+{% comment %}<!-- make space for the button(s) -->{% endcomment %}
+{% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
+   if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
+   if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
+
+<li data-icon="false" class="prog-item {{ progitemclass }} prog-panel">
+
+  {% if panel.title and panel.title != "" %}
+  <h2 {{ item_style }}>
+    Panel: {{ panel.title }}
+  </h2>
+  {% endif %}
+
+  <div class="ui-li-aside">
+    {% if has_slides %}
+      <div class="button-paper">
+        <a href="{{ panel.slides }}" onclick="window.location='{{ panel.slides }}'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+      </div>
+    {% endif %}
+    {% if has_video %}
+      <div class="button-paper">
+        <a href="{{ panel.video }}" rel="external" target="_blank" class="ui-link">Video</a>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if has_abstract %}
+    {% if panel.title and panel.title != "" %}
+      <hr class="keynote-divider" />
+    {% endif %}
+    {% if has_abstract %}
+      <p>
+        <b>Abstract: </b>{{ panel.abstract }}
+      </p>
+      <p>&nbsp;</p>
+    {% endif %}
+    {% if has_authors %}
+      <p>
+        <b>Panelists: </b><br/>
+        {{ panel.authors }}
+      </p>
+      <p>&nbsp;</p>
+    {% endif %}
+  {% endif %}
+</li>
