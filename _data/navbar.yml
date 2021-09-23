@@ -4,7 +4,7 @@
 - name: Supporters
   url: /supporters.html
 
-- name: Program
+- name: ">> Program <<"
   url: /program.html
 
 - name: "Online Registration"
@@ -15,11 +15,11 @@
     - name: "Power of Trust Schemas for Easy and Secure Deployment of NDN Applications"
       url: /tutorial-trust-schema.html
 
-- name: Accepted Papers
-  url: /accepted-papers.html
+# - name: Accepted Papers
+#   url: /accepted-papers.html
 
-- name: "Accepted Posters&Demos"
-  url: /accepted-posters.html
+# - name: "Accepted Posters&Demos"
+#   url: /accepted-posters.html
 
 - name: Program Committee
   url: /tpc.html
@@ -31,9 +31,9 @@
   submenu:
     - name: "<del>Call for Papers</del>"
       url: /cf-papers.html
-    - name: "Call for Tutorials"
+    - name: "<del>Call for Tutorials</del>"
       url: /cf-tutorials.html
-    - name: "Call for Posters and Demos"
+    - name: "<del>Call for Posters and Demos</del>"
       url: /cf-posters.html
     - name: Call for Supporters
       url: /cf-supporters.html
