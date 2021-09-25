@@ -26,6 +26,14 @@ presenters:
   Smart Home Systems, and High-level APIs for NDN with Security Built-in.
   "
 
+- name: Proyash Podder
+  photo: speakers/Proyash-Podder.jpg
+  affiliation: FIU
+  bio: "
+  Proyash Podder is PhD student in the Knights Foundation School of Computing and Information Sciences at Florida
+  International University, working under the supervision of Prof. Alex Afanasyev. 
+  "
+
 - name: Kathleen Nichols
   affiliation: Pollere, Inc.
   bio: "
@@ -61,7 +69,7 @@ presenters:
 ### Introduction
 
 The biggest challenge facing the Internet today is security problems.
-The Named Data Networking (NDN) design [1, 2, 7] enables resilient and secure communications by fetching semantically named data.
+The Named Data Networking (NDN) design [1, 2, 6] enables resilient and secure communications by fetching semantically named data.
 This new way of networking points to a new direction in building secure applications.
 Instead of viewing networks as interconnections of nodes, NDN views the networked world as interconnections of different namespaces, with various trust relations among each other.
 Applications developed for NDN secure data directly, and control data authenticity and confidentiality by utilizing application domain-specific trust relations instead of relying on external certificate authorities.
@@ -70,13 +78,15 @@ Running in a world of interconnected namespaces, NDN applications need (selected
 Having these pieces of information, an NDN application can be dropped in an NDN network and start functioning (either in ad hoc mode or, when infrastructure available, in a more global way).
 
 The mechanics on how such NDN identities and rest of the essential security pieces are configured in the application have been a subject of research and development over the past several years.
-The initial trust schema work [6] conceptually defined the ability of trust schemas to carry the majority of this information, defining trust relations between data and keys, and attaching trust anchor(s) to define trust scopes.
-While it was envisioned to use the same trust schema for publisher operations to select appropriate keys to sign the data (and automatically generate key requests to NDNCERT [8] when ones are missing), the practical implementation (in ndn-cxx library) remained limited to the authentication operations, with cumbersome syntax to define the trust relations.
+The initial trust schema work [5] conceptually defined the ability of trust schemas to carry the majority of this information, defining trust relations between data and keys, and attaching trust anchor(s) to define trust scopes.
+While it was envisioned to use the same trust schema for publisher operations to select appropriate keys to sign the data (and automatically generate key requests to NDNCERT [7] when ones are missing), the practical implementation (in ndn-cxx library) remained limited to the authentication operations, with cumbersome syntax to define the trust relations.
 The recent work [3, 4] brought another angle on how trust schemas can be defined using a domain-specific data modeling language and used for both signing and authentication processes.
 Moreover, the “bundled identity” can be used as a single piece of information that needs to installed in an NDN application to provide its identity and all necessary security parameters to function in an NDN world.
 When this new approach is paired with the use of an NDN Sync protocol, applications are easier to write and application writing can be separated from the design of a namespace and trust rules for the application class.
 
-In this tutorial we plan to give a conceptual overview of the application deployment in NDN networks and which role a trust schema can play in it. We will use a simple application to illustrate how one can configure basic trust policies and deploy them in the application. While we will primarily focus on the new trust schema developments [3, 5], we will also include examples based on other libraries to provide broader coverage, highlighting current features and limitations.
+In this tutorial we plan to give a conceptual overview of the application deployment in NDN networks and which role a trust schema can play in it. We will use a simple application to illustrate how one can configure basic trust policies and deploy them in the application. While we will primarily focus on the new trust schema developments [3, 4], we will also include examples based on other libraries to provide broader coverage, highlighting current features and limitations.
+
+{% comment %}
 
 ### Tutorial Description
 
@@ -111,6 +121,8 @@ Primarily we will use the new developments of the trust schema, but we also goin
 In addition to addressing questions in real time during the tutorial, we will also use this dedicated Q & A session to cover the questions collected from the conference Slack channel that touch on broader scope or deserve deeper elaborations.
 This session will also offer the audience opportunities to share their own work related to NDN API development and configuration challenges as well as solutions.
 
+{% endcomment %}
+
 ### Presenters
 
 {% assign expand=true %}
@@ -125,10 +137,8 @@ This session will also offer the audience opportunities to share their own work 
 
 [4] Kathleen Nichols. 2021. Trust Schemas and ICN: Key to Secure IoT. In Proc. of ACM ICN.
 
-[5] Kathleen Nichols. 2021. Trust Schemas and ICN: Key to Secure IoT. In Proc. of ACM ICN.
+[5] Yingdi Yu, Alexander Afanasyev, David Clark, kc claffy, Van Jacobson, and Lixia Zhang. 2015. Schematizing Trust in Named Data Networking. In Proceedings of 2nd ACM Conference on Information-Centric Networking. http://dx.doi.org/10.1145/2810156.2810170
 
-[6] Yingdi Yu, Alexander Afanasyev, David Clark, kc claffy, Van Jacobson, and Lixia Zhang. 2015. Schematizing Trust in Named Data Networking. In Proceedings of 2nd ACM Conference on Information-Centric Networking. http://dx.doi.org/10.1145/2810156.2810170
+[6] Lixia Zhang, Alexander Afanasyev, et al. 2014. Named data networking. ACM SIGCOMM Computer Communication Review 44, 3 (2014), 66–73.
 
-[7] Lixia Zhang, Alexander Afanasyev, Jeffrey Burke, Van Jacobson, Patrick Crowley, Christos Papadopoulos, Lan Wang, Beichuan Zhang, et al. 2014. Named data networking. ACM SIGCOMM Computer Communication Review 44, 3 (2014), 66–73.
-
-[8] Zhiyi Zhang, Yingdi Yu, Alex Afanasyev, and Lixia Zhang. 2017. NDN Certificate Management Protocol (NDNCERT). Technical Report NDN-0050. NDN.
+[7] Zhiyi Zhang, Yingdi Yu, Alex Afanasyev, and Lixia Zhang. 2017. NDN Certificate Management Protocol (NDNCERT). Technical Report NDN-0050. NDN.
