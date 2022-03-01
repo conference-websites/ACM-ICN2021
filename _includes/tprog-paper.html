@@ -30,7 +30,7 @@
       <div class="ui-li-aside">
         {% if has_link %}
         <div class="button-paper">      
-          <a href="{{ paper.link }}" onclick="window.location='{{ paper.link }}'; event.stopPropagation();" class="ui-link">Paper</a>
+          <a referrerpolicy="no-referrer-when-downgrade" href="{{ paper.link }}" onclick="window.location='{{ paper.link }}'; event.stopPropagation();" class="ui-link">Paper</a>
         </div>
         {% endif %}
         {% if has_slides %}
