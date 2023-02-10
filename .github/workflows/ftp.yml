@@ -1,12 +1,12 @@
 name: Build & Upload Site to FTP
 
-on:
-  push:
-    branches: [ master ]
-  schedule:
-    # re-build (e.g., for program changes) twice a day
-    - cron:  '30 5,17 * * *'
-  workflow_dispatch:
+#on:
+#  push:
+#    branches: [ master ]
+#    #  schedule:
+#    #    # re-build (e.g., for program changes) twice a day
+#    #    - cron:  '30 5,17 * * *'
+#    #  workflow_dispatch:
     
 jobs:
   build:
@@ -22,10 +22,10 @@ jobs:
     - name: Build Site with Jekyll
       run: docker run --rm -v "`pwd`:/build" -w /build conferences/acm-icn-2020-builder:v6 bundler exec jekyll build
     
-    - name: Upload site to FTP
-      env:
-        ftp_location: ${{ secrets.FTP_LOCATION }}
-        ftp_username: ${{ secrets.FTP_USERNAME }}
-        ftp_password: ${{ secrets.FTP_PASSWORD }} 
-      run: |
-        lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no;mirror --exclude proceedings/ --delete --delete-first -R _site/ ./; bye" -u ${ftp_username},${ftp_password} ${ftp_location}
+      #    - name: Upload site to FTP
+      #      env:
+      #        ftp_location: ${{ secrets.FTP_LOCATION }}
+      #        ftp_username: ${{ secrets.FTP_USERNAME }}
+      #        ftp_password: ${{ secrets.FTP_PASSWORD }} 
+      #      run: |
+      #        lftp -e "set ftp:ssl-force true; set ssl:verify-certificate no;mirror --exclude proceedings/ --delete --delete-first -R _site/ ./; bye" -u ${ftp_username},${ftp_password} ${ftp_location}
